@@ -10,6 +10,8 @@ import android.widget.AutoCompleteTextView;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.qmuiteam.qmui.widget.QMUITopBar;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -25,12 +27,15 @@ public class LoginActivity extends AppCompatActivity {
     AutoCompleteTextView mEmailView;
     @BindView(R.id.password)
     EditText mPasswordView;
+    @BindView(R.id.topbar)
+    QMUITopBar mTopBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         ButterKnife.bind(this);
+        mTopBar.setTitle(R.string.login);
     }
 
     @OnEditorAction(R.id.password)

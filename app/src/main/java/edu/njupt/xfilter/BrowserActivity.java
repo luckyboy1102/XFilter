@@ -14,8 +14,11 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.qmuiteam.qmui.widget.QMUITopBar;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -32,13 +35,36 @@ public class BrowserActivity extends AppCompatActivity {
     EditText mUrl;
     @BindView(R.id.webview)
     WebView webView;
+    @BindView(R.id.topbar)
+    QMUITopBar topBar;
+
+    boolean filterOn = false;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_filter);
         ButterKnife.bind(this);
+        initTopBar();
         initWebView();
+    }
+
+    private void initTopBar() {
+        topBar.setTitle(R.string.app_name);
+        topBar.addLeftBackImageButton().setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+
+        topBar.addRightTextButton(R.string.filter_on, R.id.right_button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                filterOn = !filterOn;
+                ((Button) v).setText(filterOn ? R.string.filter_off : R.string.filter_on);
+            }
+        });
     }
 
     private void initWebView() {
@@ -75,6 +101,7 @@ public class BrowserActivity extends AppCompatActivity {
         if (view != null) {
             InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
             imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+            view.clearFocus();
         }
     }
 

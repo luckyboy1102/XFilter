@@ -7,6 +7,9 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.qmuiteam.qmui.widget.QMUITopBar;
+
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
@@ -16,11 +19,15 @@ import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
 
+    @BindView(R.id.topbar)
+    QMUITopBar topBar;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
+        topBar.setTitle(R.string.app_name);
     }
 
     @OnClick({R.id.button_browser})
