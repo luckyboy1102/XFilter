@@ -25,6 +25,7 @@
         <activity android:name=".SiteChecker" />
         <activity android:name=".CheckerInput" />
         <activity android:name=".CheckerResult" />
+        <activity android:name=".FilterSetting" />
     </application>
 
 </manifest>

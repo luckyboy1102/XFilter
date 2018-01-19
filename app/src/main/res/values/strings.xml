@@ -23,4 +23,8 @@
     <string name="ok">确认</string>
     <string name="black_list">黑白名单检测</string>
     <string name="content_detect">网站内容检测</string>
+    <string name="count">共%d条</string>
+
+    <string name="web_black_list">网址黑名单</string>
+    <string name="key_word">关键字</string>
 </resources>

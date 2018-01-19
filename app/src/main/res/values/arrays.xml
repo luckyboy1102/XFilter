@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="black_list">
+        <item>www.1.com</item>
+        <item>www.2.com</item>
+        <item>www.3.com</item>
+        <item>www.4.com</item>
+        <item>www.5.com</item>
+        <item>www.6.com</item>
+        <item>www.7.com</item>
+        <item>www.8.com</item>
+        <item>www.9.com</item>
+        <item>www.10.com</item>
+    </string-array>
+
+    <string-array name="key_word">
+        <item>xfw1</item>
+        <item>xfw2</item>
+        <item>xfw3</item>
+        <item>xfw4</item>
+        <item>xfw5</item>
+        <item>xfw6</item>
+        <item>xfw7</item>
+        <item>xfw8</item>
+        <item>xfw9</item>
+        <item>xfw10</item>
+    </string-array>
+</resources>

@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         topBar.setTitle(R.string.app_name);
     }
 
-    @OnClick({R.id.button_browser, R.id.button_detector})
+    @OnClick({R.id.button_browser, R.id.button_detector, R.id.button_filter_setting})
     void itemClick(View view) {
         switch (view.getId()) {
             case R.id.button_browser:
@@ -38,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.button_detector:
                 SiteChecker.start(this);
+                break;
+            case R.id.button_filter_setting:
+                FilterSetting.start(this);
                 break;
             default:
                 break;

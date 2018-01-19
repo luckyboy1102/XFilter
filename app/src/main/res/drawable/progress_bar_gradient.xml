@@ -3,7 +3,7 @@
 
     <item
         android:id="@android:id/background"
-        android:drawable="#85B84F"/>
+        android:drawable="@drawable/progress_background"/>
     <item android:id="@android:id/progress">
         <clip android:drawable="@drawable/gradient" />
     </item>
