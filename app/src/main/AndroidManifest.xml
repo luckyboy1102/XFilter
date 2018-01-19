@@ -22,6 +22,9 @@
 
         <activity android:name=".MainActivity" />
         <activity android:name=".BrowserActivity" />
+        <activity android:name=".SiteChecker" />
+        <activity android:name=".CheckerInput" />
+        <activity android:name=".CheckerResult" />
     </application>
 
 </manifest>

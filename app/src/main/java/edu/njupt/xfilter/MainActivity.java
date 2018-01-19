@@ -30,11 +30,14 @@ public class MainActivity extends AppCompatActivity {
         topBar.setTitle(R.string.app_name);
     }
 
-    @OnClick({R.id.button_browser})
+    @OnClick({R.id.button_browser, R.id.button_detector})
     void itemClick(View view) {
         switch (view.getId()) {
             case R.id.button_browser:
                 BrowserActivity.start(this);
+                break;
+            case R.id.button_detector:
+                SiteChecker.start(this);
                 break;
             default:
                 break;
