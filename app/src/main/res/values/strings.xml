@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">XFilter</string>
+    <string name="app_name">不良网站过滤系统</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>

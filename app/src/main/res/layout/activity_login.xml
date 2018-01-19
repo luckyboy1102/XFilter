@@ -7,10 +7,13 @@
     android:orientation="vertical"
     tools:context="edu.njupt.xfilter.LoginActivity">
 
-    <com.qmuiteam.qmui.widget.QMUITopBar
-        android:id="@+id/topbar"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/qmui_topbar_height" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:textColor="#fb8227"
+        android:layout_margin="40dp"
+        android:text="@string/app_name"/>
 
     <ScrollView
         android:id="@+id/login_form"

@@ -39,4 +39,13 @@
         <item name="qmui_topbar_bg_color">@color/colorPrimary</item>
     </style>
 
+    <style name="MainMenuButton">
+        <item name="android:drawablePadding">4dp</item>
+        <item name="android:drawableTint">@android:color/white</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
 </resources>
