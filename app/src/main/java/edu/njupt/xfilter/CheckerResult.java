@@ -7,6 +7,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.qmuiteam.qmui.widget.QMUITopBar;
@@ -36,6 +37,8 @@ public class CheckerResult extends AppCompatActivity {
     TextView mType;
     @BindView(R.id.text_result)
     TextView mResult;
+    @BindView(R.id.progress)
+    ProgressBar mProgress;
 
     private CheckerInfo info;
 
@@ -60,6 +63,7 @@ public class CheckerResult extends AppCompatActivity {
         mName.setText(info.name);
         mType.setText(info.type);
         mResult.setText(info.result);
+        mProgress.setProgress(info.level);
     }
 
     private void initTopBar() {

@@ -116,6 +116,16 @@
                 android:textSize="16sp"
                 android:text="危险等级"/>
 
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:progress="10"
+                android:max="5"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:progressDrawable="@drawable/progress_bar_gradient"/>
+
         </LinearLayout>
 
         <View
