@@ -56,7 +56,7 @@
             android:drawableTop="@drawable/ic_send_black_24dp"
             style="@style/MainMenuButton"
             android:background="#dd5881"
-            android:text="网页过滤"/>
+            android:text="@string/web_filter"/>
 
         <Button
             android:layout_width="0dp"

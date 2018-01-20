@@ -5,7 +5,8 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context="edu.njupt.xfilter.LoginActivity">
+    tools:context="edu.njupt.xfilter.LoginActivity"
+    android:background="@drawable/splash">
 
     <TextView
         android:layout_width="wrap_content"

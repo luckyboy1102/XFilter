@@ -15,6 +15,8 @@
     <string name="go">前往</string>
     <string name="filter_on">开启过滤</string>
     <string name="filter_off">关闭过滤</string>
+    <string name="web_filter">网页过滤</string>
+    <string name="content_detected">检测到%s，即将关闭网页...</string>
 
     <string name="site_detector">网站检测</string>
     <string name="hint_black_list">检测速度快，可靠性高，存在部分网址没有收录情况。</string>
@@ -27,4 +29,7 @@
 
     <string name="web_black_list">网址黑名单</string>
     <string name="key_word">关键字</string>
+    <string name="add">添加%s</string>
+    <string name="placeholder">在此输入%s</string>
+    <string name="cancel">取消</string>
 </resources>
