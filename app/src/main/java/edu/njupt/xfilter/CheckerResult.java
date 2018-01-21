@@ -39,6 +39,8 @@ public class CheckerResult extends AppCompatActivity {
     TextView mResult;
     @BindView(R.id.progress)
     ProgressBar mProgress;
+    @BindView(R.id.text_level)
+    TextView mLevel;
 
     private CheckerInfo info;
 
@@ -64,6 +66,7 @@ public class CheckerResult extends AppCompatActivity {
         mType.setText(info.type);
         mResult.setText(info.result);
         mProgress.setProgress(info.level);
+        mLevel.setText(info.level + "/ 5");
     }
 
     private void initTopBar() {

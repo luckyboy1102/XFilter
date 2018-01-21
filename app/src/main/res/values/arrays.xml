@@ -2,28 +2,19 @@
 <resources>
     
     <string-array name="black_list">
-        <item>www.1.com</item>
-        <item>www.2.com</item>
-        <item>www.3.com</item>
-        <item>www.4.com</item>
-        <item>www.5.com</item>
-        <item>www.6.com</item>
-        <item>www.7.com</item>
-        <item>www.8.com</item>
-        <item>www.9.com</item>
-        <item>www.10.com</item>
+        <item>www.dc7752.com</item>
+        <item>www.97gan.com</item>
+        <item>www.sese.la</item>
+        <item>www.ss52ss.com</item>
     </string-array>
 
     <string-array name="key_word">
-        <item>xfw1</item>
-        <item>xfw2</item>
-        <item>xfw3</item>
-        <item>xfw4</item>
-        <item>xfw5</item>
-        <item>xfw6</item>
-        <item>xfw7</item>
-        <item>xfw8</item>
-        <item>xfw9</item>
-        <item>xfw10</item>
+        <item>激情</item>
+        <item>耽美</item>
+        <item>老司机</item>
+        <item>秋名山车神</item>
+        <item>蒙汗药</item>
+        <item>三唑仑</item>
+        <item>迷魂香</item>
     </string-array>
 </resources>
