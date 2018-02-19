@@ -81,7 +81,7 @@ public class FilterSetting extends AppCompatActivity {
     }
 
     private void initTopBar() {
-        topBar.setTitle(R.string.site_detector);
+        topBar.setTitle(R.string.filter_setting);
         topBar.addLeftBackImageButton().setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

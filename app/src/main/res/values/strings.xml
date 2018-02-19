@@ -17,7 +17,7 @@
     <string name="filter_off">关闭过滤</string>
     <string name="web_filter">网页过滤</string>
     <string name="content_detected">检测到%s，即将关闭网页...</string>
-
+    <string name="filter_setting">自定义过滤</string>
     <string name="site_detector">网站检测</string>
     <string name="hint_black_list">检测速度快，可靠性高，存在部分网址没有收录情况。</string>
     <string name="hint_content_detect">针对网站上文本图片综合分析，检测速度较慢。</string>
